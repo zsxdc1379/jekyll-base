@@ -1,0 +1,16 @@
+# 사이트 기본 사항
+title: ""
+email: ""
+description: ""
+baseurl: ""
+url: ""
+
+permalink: "/:year/:month/:day/:title/"
+
+markdown: kramdown
+
+krandown:
+  input: GFM
+  highlighter: rouge
+
+exclude: [README.md, Gemfile, Gemfile.lock, serve.bat, build.bat]
